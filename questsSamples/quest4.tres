@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Quests" load_steps=2 format=3 uid="uid://0diho0cswnis"]
+
+[ext_resource type="Script" uid="uid://owuqwrde2ux" path="res://quest.gd" id="1_cd5ct"]
+
+[resource]
+script = ExtResource("1_cd5ct")
+questName = ""
+questDescription = ""
+questReward = 0
+metadata/_custom_type_script = "uid://owuqwrde2ux"

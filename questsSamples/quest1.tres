@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Quest" load_steps=3 format=3 uid="uid://w83dxwmf1udd"]
+
+[ext_resource type="Script" uid="uid://owuqwrde2ux" path="res://quest.gd" id="1_iqwby"]
+[ext_resource type="Texture2D" uid="uid://0p5hsfh7mnjy" path="res://icon.svg" id="1_siayn"]
+
+[resource]
+script = ExtResource("1_iqwby")
+questName = "Brush You Teeth"
+questDescription = "Brush your teeth for 2 minutes. Following these steps..."
+questReward = 20
+questIcon = ExtResource("1_siayn")
+metadata/_custom_type_script = "uid://owuqwrde2ux"
