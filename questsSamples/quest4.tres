@@ -1,10 +1,12 @@
-[gd_resource type="Resource" script_class="Quests" load_steps=2 format=3 uid="uid://0diho0cswnis"]
+[gd_resource type="Resource" script_class="Quest" load_steps=3 format=3 uid="uid://0diho0cswnis"]
 
+[ext_resource type="Texture2D" uid="uid://benjnccudrfbm" path="res://Shower_card.png" id="1_628ti"]
 [ext_resource type="Script" uid="uid://owuqwrde2ux" path="res://quest.gd" id="1_cd5ct"]
 
 [resource]
 script = ExtResource("1_cd5ct")
-questName = ""
-questDescription = ""
-questReward = 0
+questName = "Shower"
+questDescription = "Go Shower"
+questReward = 20
+questIcon = ExtResource("1_628ti")
 metadata/_custom_type_script = "uid://owuqwrde2ux"

@@ -1,5 +1,6 @@
-[gd_resource type="Resource" script_class="Quest" load_steps=2 format=3 uid="uid://blo5grjojnqpx"]
+[gd_resource type="Resource" script_class="Quest" load_steps=3 format=3 uid="uid://blo5grjojnqpx"]
 
+[ext_resource type="Texture2D" uid="uid://0p5hsfh7mnjy" path="res://icon.svg" id="1_4uyk8"]
 [ext_resource type="Script" uid="uid://owuqwrde2ux" path="res://quest.gd" id="1_5sgtj"]
 
 [resource]
@@ -7,4 +8,5 @@ script = ExtResource("1_5sgtj")
 questName = "Eat Your Breakfast"
 questDescription = "Have you eaten your eggs? veges?"
 questReward = 0
+questIcon = ExtResource("1_4uyk8")
 metadata/_custom_type_script = "uid://owuqwrde2ux"
