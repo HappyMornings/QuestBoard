@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://d16tla866jega"]
 
-[ext_resource type="Script" uid="uid://dv1xrrqwjhlpe" path="res://quest_paper_overview.gd" id="1_q2ukv"]
-[ext_resource type="Texture2D" uid="uid://benjnccudrfbm" path="res://Shower_card.png" id="2_lq3ec"]
-[ext_resource type="Texture2D" uid="uid://cx2ohjekv6jwl" path="res://icon3.png" id="3_lq3ec"]
+[ext_resource type="Script" uid="uid://dv1xrrqwjhlpe" path="res://questBoard/quest_paper_overview.gd" id="1_q2ukv"]
+[ext_resource type="Texture2D" uid="uid://benjnccudrfbm" path="res://assets/Shower_card.png" id="2_lq3ec"]
+[ext_resource type="Texture2D" uid="uid://cx2ohjekv6jwl" path="res://assets/icon3.png" id="3_lq3ec"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lq3ec"]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dd0h7dqbi2fmu"
-path="res://.godot/imported/Brushing_card.png-d9a65dc4d496eb469eae504156834304.ctex"
+uid="uid://cx2ohjekv6jwl"
+path="res://.godot/imported/icon3.png-591b5bbb475db78f992db44e82c118d4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Brushing_card.png"
-dest_files=["res://.godot/imported/Brushing_card.png-d9a65dc4d496eb469eae504156834304.ctex"]
+source_file="res://assets/icon3.png"
+dest_files=["res://.godot/imported/icon3.png-591b5bbb475db78f992db44e82c118d4.ctex"]
 
 [params]
 
