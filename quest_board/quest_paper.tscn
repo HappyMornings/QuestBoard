@@ -1,0 +1,72 @@
+[gd_scene load_steps=4 format=3 uid="uid://dat1c4yo4rb4t"]
+
+[ext_resource type="Script" uid="uid://dydicoclq7r5c" path="res://quest_board/quest_paper.gd" id="1_u6c82"]
+[ext_resource type="Texture2D" uid="uid://benjnccudrfbm" path="res://assets/Shower_card.png" id="2_k0c13"]
+[ext_resource type="Texture2D" uid="uid://wwbvgnw1lsvv" path="res://assets/icon2.png" id="3_k0c13"]
+
+[node name="QuestPaper" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_u6c82")
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+ratio = 0.6667
+
+[node name="ColorRect" type="ColorRect" parent="AspectRatioContainer"]
+layout_mode = 2
+color = Color(0.88775, 0.757639, 0.584927, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="AspectRatioContainer"]
+layout_mode = 2
+
+[node name="QuestIcon" type="TextureRect" parent="AspectRatioContainer/VBoxContainer"]
+texture_filter = 1
+layout_mode = 2
+texture = ExtResource("2_k0c13")
+expand_mode = 5
+stretch_mode = 5
+
+[node name="QuestName" type="Label" parent="AspectRatioContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "NAME"
+horizontal_alignment = 1
+
+[node name="QuestDescription" type="Label" parent="AspectRatioContainer/VBoxContainer"]
+custom_minimum_size = Vector2(10, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "DESCRIPTION"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="QuestReward" type="Label" parent="AspectRatioContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "REWARD"
+horizontal_alignment = 1
+
+[node name="PanelContainer" type="PanelContainer" parent="AspectRatioContainer"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+size_flags_horizontal = 12
+size_flags_vertical = 0
+
+[node name="Exit" type="Button" parent="AspectRatioContainer/PanelContainer"]
+layout_mode = 2
+icon = ExtResource("3_k0c13")
+
+[connection signal="pressed" from="AspectRatioContainer/PanelContainer/Exit" to="." method="_on_exit_pressed"]

@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3 uid="uid://6yd5p0m4sjv6"]
+
+[ext_resource type="Script" uid="uid://d2f0tg248aii7" path="res://quest_board/quest_board.gd" id="1_htyiv"]
+
+[node name="QuestBoard" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_htyiv")
+
+[node name="QuestBoardSprite" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.552941, 0.439216, 0.305882, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="QuestBoardMargin" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="QuestPaperGrid" type="GridContainer" parent="QuestBoardMargin"]
+layout_mode = 2
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 30
+columns = 5
