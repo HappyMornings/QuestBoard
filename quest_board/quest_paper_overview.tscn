@@ -59,6 +59,6 @@ visible = false
 layout_mode = 2
 color = Color(0.631373, 0.0392157, 0, 0.192157)
 
-[connection signal="pressed" from="AspectRatioContainer/ZoomInButton" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="AspectRatioContainer/ZoomInButton" to="." method="_on_zoom_in_button_pressed"]
+[connection signal="pressed" from="AspectRatioContainer/ZoomInButton" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="AspectRatioContainer/PanelContainer/CompleteQuestButton" to="." method="_on_complete_quest_button_pressed"]
