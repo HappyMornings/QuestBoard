@@ -1,6 +1,6 @@
 extends Node
 
-@onready var quest_viewer_tscn: PackedScene = preload("res://quest_board/quest_viewer.tscn")
+@onready var quest_viewer_tscn: PackedScene = preload("res://morning_routine_quests/quest_board/quest_viewer.tscn")
 
 @export var quests: Array[Quest]
 

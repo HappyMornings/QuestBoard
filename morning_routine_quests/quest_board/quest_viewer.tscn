@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://0ud07ql1ry0k"]
 
-[ext_resource type="Script" uid="uid://2b2ul01p32up" path="res://quest_board/quest_viewer.gd" id="1_utr6a"]
+[ext_resource type="Script" uid="uid://2b2ul01p32up" path="res://morning_routine_quests/quest_board/quest_viewer.gd" id="1_utr6a"]
 
 [node name="QuestViewer" type="Control"]
 layout_mode = 3

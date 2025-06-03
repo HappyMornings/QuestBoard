@@ -8,7 +8,7 @@ It is where we can visually see all the Quest and use the
 functionality of the QuestBoards.
 """
 
-var quest_board_tscn: PackedScene = preload("res://quest_board/quest_board.tscn")
+var quest_board_tscn: PackedScene = preload("res://morning_routine_quests/quest_board/quest_board.tscn")
 
 @onready var questBoardBox = $HBoxContainer/QuestBoardBox
 @onready var leftButton: Button = $HBoxContainer/PanelContainer/LeftButton

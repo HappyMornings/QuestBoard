@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Quest" load_steps=3 format=3 uid="uid://bpseblv08r4k7"]
 
 [ext_resource type="Texture2D" uid="uid://0p5hsfh7mnjy" path="res://assets/icon.svg" id="1_3mkk5"]
-[ext_resource type="Script" uid="uid://owuqwrde2ux" path="res://quest_board/quest.gd" id="1_5sgtj"]
+[ext_resource type="Script" uid="uid://owuqwrde2ux" path="res://morning_routine_quests/quest_board/quest.gd" id="1_5sgtj"]
 
 [resource]
 script = ExtResource("1_5sgtj")

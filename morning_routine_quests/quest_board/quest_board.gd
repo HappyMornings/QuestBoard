@@ -27,8 +27,8 @@ reopening it would have marked of quest disappear.
 # Solution:
 # 	Quest Paper has an aspect ratio container to ensure this.
 
-var quest_paper_tscn: PackedScene = preload("res://quest_board/quest_paper.tscn")
-var quest_paper_overview_tscn: PackedScene = preload("res://quest_board/quest_paper_overview.tscn")
+var quest_paper_tscn: PackedScene = preload("res://morning_routine_quests/quest_board/quest_paper.tscn")
+var quest_paper_overview_tscn: PackedScene = preload("res://morning_routine_quests/quest_board/quest_paper_overview.tscn")
 
 @onready var questPaperGrid = $QuestBoardMargin/QuestPaperGrid
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cx2ohjekv6jwl"
-path="res://.godot/imported/icon3.png-591b5bbb475db78f992db44e82c118d4.ctex"
+uid="uid://wwbvgnw1lsvv"
+path="res://.godot/imported/icon2.png-957e58403f9c5f6bc4253b34464f9a0b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/icon3.png"
-dest_files=["res://.godot/imported/icon3.png-591b5bbb475db78f992db44e82c118d4.ctex"]
+source_file="res://morning_routine_quests/assets/icon2.png"
+dest_files=["res://.godot/imported/icon2.png-957e58403f9c5f6bc4253b34464f9a0b.ctex"]
 
 [params]
 

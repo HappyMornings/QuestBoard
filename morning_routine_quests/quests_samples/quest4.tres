@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Quest" load_steps=3 format=3 uid="uid://0diho0cswnis"]
 
-[ext_resource type="Texture2D" uid="uid://benjnccudrfbm" path="res://assets/Shower_card.png" id="1_628ti"]
-[ext_resource type="Script" uid="uid://owuqwrde2ux" path="res://quest_board/quest.gd" id="1_cd5ct"]
+[ext_resource type="Texture2D" uid="uid://benjnccudrfbm" path="res://morning_routine_quests/assets/Shower_card.png" id="1_628ti"]
+[ext_resource type="Script" uid="uid://owuqwrde2ux" path="res://morning_routine_quests/quest_board/quest.gd" id="1_cd5ct"]
 
 [resource]
 script = ExtResource("1_cd5ct")

@@ -1,0 +1,11 @@
+[gd_scene load_steps=6 format=3 uid="uid://bewoo26crm1mn"]
+
+[ext_resource type="Script" uid="uid://k8o0x4t8dhrk" path="res://morning_routine_quests/quest_board/testing_quest_viewing.gd" id="1_16lyl"]
+[ext_resource type="Script" uid="uid://owuqwrde2ux" path="res://morning_routine_quests/quest_board/quest.gd" id="2_7f11g"]
+[ext_resource type="Resource" uid="uid://w83dxwmf1udd" path="res://morning_routine_quests/quests_samples/quest1.tres" id="3_h54sr"]
+[ext_resource type="Resource" uid="uid://bpseblv08r4k7" path="res://morning_routine_quests/quests_samples/quest2.tres" id="4_43hl7"]
+[ext_resource type="Resource" uid="uid://blo5grjojnqpx" path="res://morning_routine_quests/quests_samples/quest3.tres" id="5_f68v5"]
+
+[node name="TestingQuestViewing" type="Node"]
+script = ExtResource("1_16lyl")
+quests = Array[ExtResource("2_7f11g")]([ExtResource("3_h54sr"), ExtResource("4_43hl7"), ExtResource("5_f68v5"), ExtResource("4_43hl7"), ExtResource("3_h54sr"), ExtResource("3_h54sr"), ExtResource("5_f68v5"), ExtResource("3_h54sr"), ExtResource("3_h54sr"), ExtResource("3_h54sr"), ExtResource("3_h54sr")])
